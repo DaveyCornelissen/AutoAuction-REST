@@ -1,0 +1,8 @@
+package com.dcorn.api.car;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import java.util.Optional;
+
+public interface ICarRepository extends JpaRepository<Car, Integer> {
+}
